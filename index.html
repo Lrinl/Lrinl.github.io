@@ -190,28 +190,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
-
-<h2 id="1-进入博客源文件夹，调用git工具"><a href="#1-进入博客源文件夹，调用git工具" class="headerlink" title="1.进入博客源文件夹，调用git工具"></a>1.进入博客源文件夹，调用git工具</h2><h2 id="2-初始化本地项目"><a href="#2-初始化本地项目" class="headerlink" title="2.初始化本地项目"></a>2.初始化本地项目</h2><ul>
-<li>git init</li>
-</ul>
-<h2 id="3-若出现以下情况"><a href="#3-若出现以下情况" class="headerlink" title="3.若出现以下情况"></a>3.若出现以下情况</h2><ul>
-<li>warning: LF will be replaced by CRLF<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3></li>
-<li>git config core.autocrlf false</li>
-</ul>
-<h2 id="4-将本地Hexo目录与远程仓库关联"><a href="#4-将本地Hexo目录与远程仓库关联" class="headerlink" title="4.将本地Hexo目录与远程仓库关联"></a>4.将本地Hexo目录与远程仓库关联</h2><ul>
-<li>git remote add origin <code>https://github.com/Lrinl/Lrinl.github.io.git</code></li>
-</ul>
-<h2 id="5-添加所有文件到暂存区"><a href="#5-添加所有文件到暂存区" class="headerlink" title="5.添加所有文件到暂存区"></a>5.添加所有文件到暂存区</h2><ul>
-<li>git add .</li>
-</ul>
-<h2 id="6-提交暂存区的文件"><a href="#6-提交暂存区的文件" class="headerlink" title="6.提交暂存区的文件"></a>6.提交暂存区的文件</h2><ul>
-<li>git commit -m ‘我的提交’</li>
-</ul>
-<h2 id="7-推送本地分支（master）到远程分支（source）上（没有则自动创建）"><a href="#7-推送本地分支（master）到远程分支（source）上（没有则自动创建）" class="headerlink" title="7.推送本地分支（master）到远程分支（source）上（没有则自动创建）"></a>7.推送本地分支（master）到远程分支（source）上（没有则自动创建）</h2><ul>
-<li>git push origin master:source</li>
-</ul>
-
+        <p>hexo部署网站到github上是只部署.deploy_git中的静态内容的，像source文件夹之类的是不会自动上传的，也就无法在别的电脑上想要对博客进行修改操作，因此，将文件源码进行托管就显得很重要</p>
+        
       
 
       
