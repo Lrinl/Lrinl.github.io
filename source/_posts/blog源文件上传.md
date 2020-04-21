@@ -1,7 +1,10 @@
 ---
 
 title: 如何上传本地Hexo博客源码至github page的分支上
-date: 2020-4-19
+date: 2020-4-20
+tags:
+- hexo
+- git
 ---
 
 hexo部署网站到github上是只部署.deploy_git中的静态内容的，像source文件夹之类的是不会自动上传的，也就无法在别的电脑上想要对博客进行修改操作，因此，将文件源码进行托管就显得很重要
