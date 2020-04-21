@@ -25,7 +25,7 @@ hexo部署网站到github上是只部署.deploy_git中的静态内容的，像so
 
 - 除了.deploy_git文件夹
 
-## 5.执行下列执行
+## 5.执行下列命令
 	git add .
 	git commit -m 'blog source'
 	git push
