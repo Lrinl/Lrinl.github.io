@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Lrinl的博客
+title: Aik的博客
 subtitle: ''
 description: ''
 keywords:
-author: Lrinl
+author: Aik
 language: en
 timezone: ''
 
@@ -99,7 +99,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: https://github.com/Lrinl/Lrinl.github.io.git
+  repo: https://github.com/aik-n/aik-n.github.io.git
   branc: master
 
 jsonContent:
